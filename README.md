@@ -1,8 +1,8 @@
 
-# Eggnog Downloader Script
+# Eggnog Downloader 
 
 ## Project Description
-This Python script automates the downloading of specific files from the Eggnog result page. It is designed to be user-friendly and handle common errors gracefully.
+This Python script automates the downloading of files from the [Eggnog](http://eggnog-mapper.embl.de) result page for protein and genomic data. It is designed to be user-friendly and handle common errors.
 
 ## Technologies Used
 - Python 3
@@ -10,8 +10,6 @@ This Python script automates the downloading of specific files from the Eggnog r
 - Requests
 
 ## Badges
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/user/repo)
-![GitHub contributors](https://img.shields.io/github/contributors/user/repo)
 ![Python version](https://img.shields.io/badge/python-3.8-blue.svg)
 
 ## Code Explanation and Features
@@ -34,12 +32,36 @@ pip install requests beautifulsoup4
 3. Provide the destination directory path for downloading the files.
 4. Enter a sample identifier that will be prefixed to the names of downloaded files.
 
-## Authors and Acknowledgment
-- Main Developer: [Your Name](https://github.com/yourusername)
-- Thanks to all contributors who have helped to improve this script.
+## Supported Files
+
+The script is configured to fetch and download the following Eggnog Mapper files:
+
+- emapper.err
+- emapper.out
+- info.txt
+- out.emapper.annotations
+- out.emapper.annotations.xlsx
+- out.emapper.decorated.gff
+- out.emapper.genepred.fasta
+- out.emapper.genepred.gff
+- out.emapper.hits
+- out.emapper.orthologs
+- out.emapper.seed_orthologs
+- queries.fasta
+- queries.raw
+
 
 ## Project Status
-The project is currently in a stable release phase.
+The project is currently in the development phase.
+
+## Authors and Acknowledgment
+- Main Developer: [Douglas Felipe](https://github.com/DougFelipe)
+
+## Support
+If you encounter any problems using the script, please open an `issue` in the GitHub repository where the script is hosted.
+
+## Contribution
+Contributions to the script are welcome. Please feel free to `fork` the repository, make your changes and open a `pull request`.
 
 ## Changelog
 - v1.0.0 - Initial release
